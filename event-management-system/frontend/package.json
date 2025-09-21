@@ -1,0 +1,54 @@
+{
+  "name": "kongu-event-management-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Kongu College Event Management System",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "axios": "^1.6.0",
+    "react-query": "^3.39.3",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "socket.io-client": "^4.7.4",
+    "zustand": "^4.4.1",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.263.1",
+    "date-fns": "^2.30.0",
+    "react-dropzone": "^14.2.3",
+    "react-image-crop": "^10.1.8",
+    "react-share": "^4.4.1",
+    "qrcode.react": "^3.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "tailwindcss": "^3.3.3",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "@vitejs/plugin-react"
+    ],
+    "rules": {
+      "react/prop-types": "off"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "event-management-backend",
+  "version": "1.0.0",
+  "description": "Backend for Kongu College Event Management System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "event-management",
+    "mern",
+    "kongu-college"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "cloudinary": "^1.41.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "socket.io": "^4.7.4",
+    "nodemailer": "^6.9.7",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "officegen": "^0.6.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
